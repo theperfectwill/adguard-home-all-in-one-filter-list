@@ -21,22 +21,22 @@ ______________________________________________________________________
 
 ## What Is This?<a name="what-is-this"></a>
 
-This is a DNS blocklist that can be used for AdGuardHome. (Does not work with Pi-hole)
+This is a DNS blocklist that can be used for AdGuard. (Does not work with Pi-hole)
 
 This list combines more than 80 other lists, including the default lists from
-AdGuardHome, into one single list, so you don't have to add countless lists to your
-AdGuardHome, but just this one.
+AdGuardHome, into one single list (formatted for Adguard with duplicated removed),
+so you don't have to add countless lists to your AdGuardHome, but just this one.
 
 ## How Can I Use It?<a name="how-can-i-use-it"></a>
 
 Pretty simple, copy this link
-(https://github.com/ppfeufer/adguard-filter-list/blob/master/blocklist?raw=true) and
-add it to your AdGuardHome DNS blocklists.
+(https://github.com/theperfectwill/adguard-home-all-in-one-filter-list/blob/master/blocklist.txt?raw=true) and
+add it to your AdGuard blocklists.
 
 ## Which Lists Are Combined Here?<a name="which-lists-are-combined-here"></a>
 
 Which lists I'm using here, you can see in hostlist compiler configuration
-» [click here](hostlist-compiler-config.json) « or have a look at the table below.
+» [click here](config.json) « or have a look at the table below.
 
 | Name                                                                                                        | URL                                                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -168,6 +168,6 @@ You are free to use this list, but I can give you no guarantee for it since none
 the lists combined here is managed by me.
 
 If you want to create your own combined list, feel free to fork this repository and
-change the hostlist compiler configuration I included to start your own voyage. To
-compile the hostlist, use
+change the host list compiler configuration included to start your own repo. To
+compile the host list, use
 [AdGuard's HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler).

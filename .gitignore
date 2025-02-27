@@ -2,3 +2,4 @@
 /curl-log-file
 /create-adguard-blocklist.sh
 /run-garbage-collection
+.DS_Store

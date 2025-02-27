@@ -1,0 +1,8 @@
+@Todo->add new lists used in README file
+- Removed phishing-filter, compiler failed everytime
+- Removed a no-add.com kind of site because the ip resolved failed
+
+@ToDo->add compiled whitelist
+
+@ToDo->probably separate the compiled list into some basic categories
+- like malware/phishing/badhosts, spam/gambling, analytics/trackers, ads, etc.
